@@ -1,0 +1,17 @@
+.menu {
+    position : fixed;
+    top: 30;
+    left: 0;
+    width: 100vw;
+    height: 100vw;
+    background: #fff;
+    display: grid;
+  }
+  .header_menuBtn {
+    position: relative;
+    z-index: 10;
+  }
+  .noscroll,
+  .noscroll body {
+    overflow: hidden;
+  }
